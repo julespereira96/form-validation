@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: bisque !important;
+  font-family: "poppins", sans-serif !important;
+}
+
+nav {
+  background-color: white;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 540px;
+  background-color: #00ad6f;
+}
+
+.Login {
+  margin-top: 20px;
+}
+
+.display-none {
+  display: none;
+}
+
+.login,
+.signup {
+  position: relative;
+}
+
+.icon,
+.icon1 {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  background-color: #c5e8db;
+}
+
+.switch,
+.switch1 {
+  color: black !important;
+  text-decoration: none;
+}
+
+.emailValidate,
+.passwordValidate,
+.nameValidate,
+.password,
+.differentMail,
+.loginEmailValidate,
+.loginPasswordValidate {
+  color: red;
+  text-align: center;
+}
+
+.displayUser {
+  margin-top: 20px;
+}
